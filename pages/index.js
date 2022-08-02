@@ -1,6 +1,8 @@
 import Head from "next/head";
-import {About} from '../components/About'
-import {Introduction} from '../components/Introduction'
+import { About } from "../components/About";
+import { ContactInfo } from "../components/Contact";
+import { Introduction } from "../components/Introduction";
+import { ProjectList } from "../components/Projects";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
@@ -13,9 +15,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="">
-	  <Introduction/>
-    <About/>
-     </main>
+        <Introduction />
+        <About />
+        <ContactInfo/>
+        <ProjectList />
+      </main>
     </div>
   );
 }
