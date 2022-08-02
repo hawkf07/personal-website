@@ -10,7 +10,7 @@ export function ContactInfo () {
 
                 <h2 className="flex gap-3 w-96 items-center"><HiLocationMarker size="2em"/> <span>BANDUNG | INDONESIA</span> </h2>
                 <h2 className="flex gap-3 items-center justify-around w-96"><MdEmail size="2em"/> <span> fikrifadilah299@gmail.com </span> </h2>
-                <h2 className="flex gap-3 w-96 items-center"><FaGithub size="2em"/> <span> Hawkf07</span> </h2>
+                <h2 className="flex gap-3 w-96 items-center text-white"><FaGithub size="2em"/> <a href="#"> Hawkf07</a> </h2>
             </div>
         </section>
     )
